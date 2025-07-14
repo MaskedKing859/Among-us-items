@@ -1,0 +1,86 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "block/Imposter_shield_Texture",
+		"particle": "block/Imposter_shield_Texture"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [2, 0, 6],
+			"to": [14, 22, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 6.5]},
+			"faces": {
+				"north": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#0"},
+				"east": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#0"},
+				"south": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#0"},
+				"west": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#0"},
+				"up": {"uv": [3.25, 0.25, 0.25, 0], "texture": "#0"},
+				"down": {"uv": [6.25, 0, 3.25, 0.25], "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle",
+			"from": [7, 8, 7],
+			"to": [9, 14, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 10]},
+			"faces": {
+				"north": {"uv": [1.5, 7.25, 2, 8.75], "texture": "#0"},
+				"east": {"uv": [0, 7.25, 1.5, 8.75], "texture": "#0"},
+				"south": {"uv": [3.5, 7.25, 4, 8.75], "texture": "#0"},
+				"west": {"uv": [2, 7.25, 3.5, 8.75], "texture": "#0"},
+				"up": {"uv": [2, 7.25, 1.5, 5.75], "texture": "#0"},
+				"down": {"uv": [2.5, 5.75, 2, 7.25], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [61.44, -90, 63],
+			"translation": [1.75, -5, 4.25],
+			"scale": [1, 1, 0.8418]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [61.44, -90, 63],
+			"translation": [1.75, -5, 4.25],
+			"scale": [1, 1, 0.8418]
+		},
+		"firstperson_righthand": {
+			"translation": [2.75, -5.5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [2.75, -5.5, 0]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"translation": [0, -2.25, 0],
+			"scale": [0.83984, 0.71875, 1]
+		},
+		"head": {
+			"translation": [0, -1.25, -6.25],
+			"scale": [1.18555, 0.59961, 1]
+		},
+		"fixed": {
+			"translation": [0, -2.25, 2],
+			"scale": [1.16602, 0.83203, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "plate",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "handle",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [1]
+		}
+	]
+}
